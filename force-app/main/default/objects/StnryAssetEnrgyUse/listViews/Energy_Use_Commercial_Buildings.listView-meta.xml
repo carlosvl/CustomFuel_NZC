@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Energy_Use_Commercial_Buildings</fullName>
+    <columns>Name</columns>
+    <columns>EndDate</columns>
+    <columns>FuelType</columns>
+    <columns>Scope1EmissionsInTco2e</columns>
+    <columns>StartDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+        <value>StnryAssetEnrgyUse.Commercial_Building</value>
+    </filters>
+    <label>Energy Use - Commercial Buildings</label>
+</ListView>

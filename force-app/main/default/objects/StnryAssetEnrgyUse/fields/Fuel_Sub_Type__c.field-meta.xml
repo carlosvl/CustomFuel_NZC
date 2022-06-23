@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fuel_Sub_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Fuel Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BE Fuel Cell</fullName>
+                <default>false</default>
+                <label>BE Fuel Cell</label>
+            </value>
+            <value>
+                <fullName>E10</fullName>
+                <default>false</default>
+                <label>E10</label>
+            </value>
+            <value>
+                <fullName>E85</fullName>
+                <default>false</default>
+                <label>E85</label>
+            </value>
+            <value>
+                <fullName>HCFC-22/R-22</fullName>
+                <default>false</default>
+                <label>HCFC-22/R-22</label>
+            </value>
+            <value>
+                <fullName>HFC-134A/R-134A</fullName>
+                <default>false</default>
+                <label>HFC-134A/R-134A</label>
+            </value>
+            <value>
+                <fullName>Propane</fullName>
+                <default>false</default>
+                <label>Propane</label>
+            </value>
+            <value>
+                <fullName>R-404A</fullName>
+                <default>false</default>
+                <label>R-404A</label>
+            </value>
+            <value>
+                <fullName>R-407C</fullName>
+                <default>false</default>
+                <label>R-407C</label>
+            </value>
+            <value>
+                <fullName>R-410A</fullName>
+                <default>false</default>
+                <label>R-410A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
